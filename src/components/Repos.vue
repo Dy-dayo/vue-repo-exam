@@ -3,7 +3,7 @@
         <div>
             <h1>Welcome to Github repository page built with Vue</h1>
             <h2>Ojo Oladayo has {{ repoArray.length }} repositories.</h2>
-            <p>All of which you will see as you navigate with the prev and next button</p>
+            <p>All of which you will see as you navigate with the prev and next button.</p>
         </div>
         <div v-for="(repo, i) in repoArray" :key="i">
             <div className="repos">
