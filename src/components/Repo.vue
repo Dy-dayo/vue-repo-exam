@@ -7,7 +7,7 @@
         <p>The size of this repo is {{ repo.size }}</p>
     </div>
 </template>
-
+<!-- Composition API -->
 <script setup>
 import { ref } from "vue";
 import { useRoute } from "vue-router"
