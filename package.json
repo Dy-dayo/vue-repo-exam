@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "jw-vue-pagination": "^1.0.3",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
