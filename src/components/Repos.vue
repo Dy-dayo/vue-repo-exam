@@ -115,7 +115,7 @@ export default {
 }
 
 .repos {
-    background: rgba(1, 74, 74, 0.096);
+    background: rgba(1, 74, 74, 0.202);
     box-shadow: 1px 1px 1.5px rgba(1, 83, 83, 0.423);
     text-align: center;
     border-radius: 10px;
