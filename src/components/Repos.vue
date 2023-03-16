@@ -84,11 +84,22 @@ export default {
 </script>
 
 <style>
-.repo-template{
+.repo-template {
     padding: 10px 15px;
 }
+
+.intro div h1 {
+    font-size: 1.95rem;
+    margin: 0;
+}
+
+.intro div h2 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
 .img-div img {
-    /*.img-div img mean any img tag in .img-div*/
     width: 150px;
     max-height: 165px;
     border-radius: 50%;
@@ -99,24 +110,23 @@ export default {
 .repos-area {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* grid-template-rows: 250px; */
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
 .repos {
-    /* border: 1px solid black; */
     background: rgba(1, 74, 74, 0.096);
     box-shadow: 1px 1px 1.5px rgba(1, 83, 83, 0.423);
-    /* width: 75%; */
-    /* margin: 1rem; */
     text-align: center;
     border-radius: 10px;
 }
-.repos p a{
+
+.repos p a {
     color: inherit;
 }
-.repos button,.control-btns button{
+
+.repos button,
+.control-btns button {
     font-family: 'Karla', sans-serif;
     cursor: pointer;
 }
@@ -127,30 +137,37 @@ export default {
     padding: 8px;
     border-radius: 10px;
     margin: 5px auto 15px;
-    
+
 }
-button{
-  background: rgba(1, 83, 83, 0.803);
-  color: rgb(233, 231, 231);
-  font-size: 18px;
-  font-weight: 500;
+
+button {
+    background: rgba(1, 83, 83, 0.803);
+    color: rgb(233, 231, 231);
+    font-size: 18px;
+    font-weight: 500;
+    /* border: none; */
+
 }
-.control-btns{
+
+.control-btns {
     margin: 0 auto 50px;
     width: 350px;
     display: flex;
     align-items: center;
 }
-.control-btns button{
-    width:50px ;
+
+.control-btns button {
+    width: 50px;
     padding: 15px 0;
-    margin-right:5px ;
-   background:rgb(1, 83, 83) ; 
+    margin-right: 5px;
+    background: rgb(1, 83, 83);
 }
-button.next{
+
+button.next {
     border-radius: 0px 50% 50% 0px;
 }
-button.prev{
+
+button.prev {
     border-radius: 50% 0 0 50%;
 }
 
@@ -158,9 +175,19 @@ button.prev{
     .intro {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:1rem;
+        gap: 1rem;
     }
-    .img-div{
+
+    .intro div h1 {
+        font-size: 2.4rem;
+    }
+
+    .intro div h2 {
+        margin-top: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .img-div {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -169,10 +196,9 @@ button.prev{
     .img-div img {
         width: 70%;
         max-width: 400px;
-        max-height:280px;
+        max-height: 280px;
         border-radius: 50%;
         display: block;
         margin: 0 auto;
     }
-}
-</style>
+}</style>

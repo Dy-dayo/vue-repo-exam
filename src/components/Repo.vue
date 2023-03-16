@@ -5,6 +5,9 @@
             you </p>
         <p>It was pushed on {{ repo.pushed_at }}</p>
         <p>The size of this repo is {{ repo.size }}</p>
+       <p> {{repo.language?`The project was mainly built with ${repo.language} ${repo.language=="CSS"? "and JS":repo.language=="HTML"?"and JS":""}`
+            :
+       "It contains different projects"}} </p>
     </div>
 </template>
 <!-- Composition API -->

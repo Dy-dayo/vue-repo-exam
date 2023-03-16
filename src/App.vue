@@ -58,8 +58,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* box-shadow: .5px .5px 1px rgb(242, 242, 242); */
-  /* background: rgb(11, 227, 227); */
   background:rgba(1, 83, 83, 0.858) ;
   padding: 10px 15px;
   color: rgb(225, 224, 224);
@@ -72,7 +70,6 @@ nav{
 }
 .choose-mode{
   display: flex;
-  /* border: 1px solid black; */
   width: 40px;
   border-radius:40% ;
   background: grey;
@@ -80,9 +77,7 @@ nav{
 }
 .choose-mode div{
   width: 20px;
-  /* height: 20px; */
   border-radius:50% ;
-  /* background:rgb(9, 8, 29) ; */
   background:rgba(1, 83, 83, 0.858) ;
   border: 1px solid grey;
   color: grey;
@@ -101,7 +96,7 @@ nav{
 nav .r-link{
     text-decoration: none;
     color: rgb(238, 238, 238);
-    /* font-family:'Karla', sans-serif ; */
+    
     font-weight: 500;
 }
 
@@ -111,7 +106,6 @@ footer{
   width: 100%;
   bottom: 0;
   height: 45px;
-  /* background:  rgb(11, 227, 227); */
   background:rgba(1, 83, 83, 0.803) ;
   display: flex;
   justify-content: center;
